@@ -95,6 +95,13 @@ The scripts are numbered to suggest a logical workflow, though they can be run i
 | `17_LFP_Analysis.py`      | Batch processing of LFP data: Notch filtering, Bandpass filtering, and PSD. |
 | `17_LFP_Spectrogram.py`   | **(New)** Time-Frequency Analysis (CWT) and Raw LFP Waveform plotting. |
 
+### Part IV: Downsampling Analysis
+
+| Script Name               | Function                                                     |
+| :------------------------ | :----------------------------------------------------------- |
+| `18_CCH_all in one_resampling.py` | Includes rigorous unidirectional downsampling engines specifically tailored for handling experimental vs. control group disparities (e.g., CUMS vs. Control), preventing baseline firing rate biases from skewing connectivity results.    |
+| `19_Assembly analysis_resampling.py`      | Advanced ICA cell assembly detection with specific population down-sampling control (Ctrl/CUMS) and pairwise sync validation. |
+
 ## Input Data Format
 
 * **Spike Data:** Standard `.xlsx` files where each column represents a neuron and rows represent spike timestamps (in seconds).
