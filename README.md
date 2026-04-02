@@ -99,8 +99,8 @@ The scripts are numbered to suggest a logical workflow, though they can be run i
 
 | Script Name               | Function                                                     |
 | :------------------------ | :----------------------------------------------------------- |
-| `18_CCH_all in one_resampling.py` | Includes rigorous unidirectional downsampling engines specifically tailored for handling experimental vs. control group disparities (e.g., CUMS vs. Control), preventing baseline firing rate biases from skewing connectivity results.    |
-| `19_Assembly analysis_resampling.py`      | Advanced ICA cell assembly detection with specific population down-sampling control (Ctrl/CUMS) and pairwise sync validation. |
+| `18_CCH_all in one_downsampling.py` | Includes rigorous unidirectional downsampling engines specifically tailored for handling experimental vs. control group disparities (e.g., CUMS vs. Control), preventing baseline firing rate biases from skewing connectivity results.    |
+| `19_Assembly analysis_downsampling.py`      | Advanced ICA cell assembly detection with specific population down-sampling control (Ctrl/CUMS) and pairwise sync validation. |
 
 ## Input Data Format
 
