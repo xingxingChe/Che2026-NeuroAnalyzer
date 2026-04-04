@@ -65,21 +65,21 @@ The scripts are numbered to suggest a logical workflow, though they can be run i
 
 | Script Name                          | Function                                                     |
 | :----------------------------------- | :----------------------------------------------------------- |
-| `1_Frequency_Calculator.py`          | Calculates mean firing rates for all neurons in a session.   |
-| `2_Waveform_Calculator.py`           | Extracts waveform features (FWHM, Peak-Valley time) for neuron classification. |
-| `3_Autocorrelogram.py`               | Generates autocorrelograms (ACG) to assess rhythmicity and refractory periods. |
-| `3_Autocorrelogram_Normalization.py` | Normalizes ACGs for population averaging.                    |
-| `4_ISI_Calculator_and_Histogram.py`  | Computes ISI distributions and plots histograms (log-scale). |
-| `5_CVisi_Calculator.py`              | Calculates the Coefficient of Variation of ISI to assess firing irregularity. |
-| `6_K-means_Analysis.py`              | Performs K-means clustering to separate putative PYR and INT units. |
-| `7_Burst_Metrics.py`                 | Quantifies bursting activity (burst rate, spikes per burst, etc.). |
+| `01_Frequency_Calculator.py`          | Calculates mean firing rates for all neurons in a session.   |
+| `02_Waveform_Calculator.py`           | Extracts waveform features (FWHM, Peak-Valley time) for neuron classification. |
+| `03.1_Autocorrelogram.py`               | Generates autocorrelograms (ACG) to assess rhythmicity and refractory periods. |
+| `03.2_Autocorrelogram_Normalization.py` | Normalizes ACGs for population averaging.                    |
+| `04_ISI_Calculator_and_Histogram.py`  | Computes ISI distributions and plots histograms (log-scale). |
+| `05_CVisi_Calculator.py`              | Calculates the Coefficient of Variation of ISI to assess firing irregularity. |
+| `06_K-means_Analysis.py`              | Performs K-means clustering to separate putative PYR and INT units. |
+| `07_Burst_Metrics.py`                 | Quantifies bursting activity (burst rate, spikes per burst, etc.). |
 
 ### Part II: Synaptic Connectivity (Cross-Correlation)
 
 | Script Name                     | Method    | Direction     | Type       |
 | :------------------------------ | :-------- | :------------ | :--------- |
-| `8_CCH_Gaussian...PYR-INT.py`   | Gaussian  | PYR $\to$ INT | Excitatory |
-| `9_CCH_Gaussian...INT-PYR.py`   | Gaussian  | INT $\to$ PYR | Inhibitory |
+| `08_CCH_Gaussian...PYR-INT.py`   | Gaussian  | PYR $\to$ INT | Excitatory |
+| `09_CCH_Gaussian...INT-PYR.py`   | Gaussian  | INT $\to$ PYR | Inhibitory |
 | `10_CCH_Gaussian...PYR-PYR.py`  | Gaussian  | PYR $\to$ PYR | Excitatory |
 | `11_CCH_Gaussian...INT-INT.py`  | Gaussian  | INT $\to$ INT | Inhibitory |
 | `12_CCH_Jittering...PYR-INT.py` | Jittering | PYR $\to$ INT | Excitatory |
